@@ -1,8 +1,8 @@
 # VSD RISC-V SoC Tapeout Program 
 [![VSD](https://img.shields.io/badge/VSD-RISC--V%20SoC-blue?style=for-the-badge)](https://www.vlsisystemdesign.com/)
-![Linux](https://img.shields.io/badge/OS-Linux%20%7C%20Ubuntu-orange?style=for-the-badge&logo=linux)
-![Git](https://img.shields.io/badge/Version%20Control-Git-black?style=for-the-badge&logo=git)
-![RISC-V](https://img.shields.io/badge/Architecture-RISC--V-blue?style=for-the-badge&logo=riscv)
+[![Linux](https://img.shields.io/badge/OS-Linux%20%7C%20Ubuntu-orange?style=for-the-badge&logo=linux)](www.linux.org)
+[![Git](https://img.shields.io/badge/Version%20Control-Git-black?style=for-the-badge&logo=git)](https://github.com/)
+[![RISC-V](https://img.shields.io/badge/Architecture-RISC--V-blue?style=for-the-badge&logo=riscv)](https://riscv.org/)
 
 
 ---
