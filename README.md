@@ -27,7 +27,7 @@ The program is designed to provide hands-on exposure to:
 | **2** | RTL design & synthesis | - |
 | **3** | Physical design & layout | - |
 
----
+
 
 <details>
   <summary>
@@ -52,8 +52,8 @@ sudo apt install git make gcc g++ vim build-essential -y
 sudo apt-get update
 sudo apt-get install yosys
 ```
-📸 *Screenshot:*  
-![Yosys Installation](images/yosys.png)  
+📸 *Yosys:*  
+![Yosys Installation](screenshots/icarus.png)  
 
 ---
 
@@ -62,8 +62,8 @@ sudo apt-get install yosys
 sudo apt-get update
 sudo apt-get install iverilog
 ```
-📸 *Screenshot:*  
-![Iverilog Status](./images/week0_iverilog_done.png)  
+📸 *Icarus Verilog:*  
+![Yosys Installation](screenshots/icarus.png)  
 
 ---
 
@@ -72,8 +72,8 @@ sudo apt-get install iverilog
 sudo apt-get update
 sudo apt install gtkwave
 ```
-📸 *Screenshot:*  
-![GTKWave Installation](./images/week0_gtkwave_done.png)  
+📸 *GTKWave:*  
+![Yosys Installation](screenshots/gdkwave.png)
 
 ---
 
@@ -103,7 +103,7 @@ sudo apt install gtkwave
 
 ## Acknowledgments  
 I sincerely thank:  
-- Kunal gosh **VSD (VLSI System Design)** team for this initiative  
+- Kunal gosh sir and **VSD (VLSI System Design)** team for this initiative  
 - Mentors & community for guidance  
 - Open-source developers for tools like Yosys, Iverilog, GTKWave  
 
