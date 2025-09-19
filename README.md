@@ -5,18 +5,6 @@
 [![RISC-V](https://img.shields.io/badge/Architecture-RISC--V-blue?style=for-the-badge&logo=riscv)](https://riscv.org/)
 
 
----
-
-## 📌 Table of Contents  
-- [Introduction](#-introduction)  
-- [Tasks Overview](#-tasks-overview)  
-- [Week 0 – Tool Installation & Verification](#-week-0--tool-installation--verification)  
-- [Week 1 – Coming Soon](#-week-1--coming-soon)  
-- [Acknowledgments](#-acknowledgments)  
-- [References](#-references)  
-
----
-
 ## 🔰 Introduction  
 This repository documents my **learning journey and weekly submissions** for the **VSD RISC-V SoC Tapeout Program**.  
 
@@ -35,17 +23,23 @@ The program is designed to provide hands-on exposure to:
 | Week | Focus Area | Status |
 |------|------------|--------|
 | **0** | Tool installation, environment setup, Teardrop verification | ✅ Completed |
-| **1** | RISC-V toolchain exploration, basic simulation | 🔜 Coming soon |
-| **2** | RTL design & synthesis | ⏳ Planned |
-| **3** | Physical design & layout | ⏳ Planned |
+| **1** | RISC-V toolchain exploration, basic simulation | - |
+| **2** | RTL design & synthesis | - |
+| **3** | Physical design & layout | - |
 
 ---
 
-## 📦 Week 0 – Tool Installation & Verification  
+<details>
+  <summary>
+     Week 0 – Tool Installation & Verification  
+  </summary>
+
+# Week 0 – Tool Installation & Verification 
 
 ### 🔹 Step 1: Update & Install Essential Packages  
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
+sudo apt upgrade -y
 sudo apt install git make gcc g++ vim build-essential -y
 ```
 
@@ -56,16 +50,10 @@ sudo apt install git make gcc g++ vim build-essential -y
 #### ✅ Yosys  
 ```bash
 sudo apt-get update
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt-get install build-essential clang bison flex     libreadline-dev gawk tcl-dev libffi-dev git     graphviz xdot pkg-config python3 libboost-system-dev     libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-git submodule update --init --recursive
-make
-sudo make install
+sudo apt-get install yosys
 ```
 📸 *Screenshot:*  
-![Yosys Installation](./images/week0_yosys_done.png)  
+![Yosys Installation](images/yosys.png)  
 
 ---
 
@@ -89,33 +77,21 @@ sudo apt install gtkwave
 
 ---
 
-### 🔹 Step 3: Verify with Teardrop Example  
-Run the included test to confirm installation:  
 
-```bash
-make test
-```
-
-✅ **Expected Output:**  
-```text
-[INFO] Toolchain working correctly
-[PASS] Teardrop verification complete
-```
-
-📸 *Screenshot:*  
-![Teardrop Verification](./images/week0_teardrop_output.png)  
-
----
 
 ### ✅ Learnings from Week 0  
 - Set up Ubuntu VM inside VirtualBox  
 - Installed open-source tools (Yosys, Iverilog, GTKWave)  
-- Verified installation with **Teardrop test case**  
 - Learned Linux command-line basics  
 
 ---
+</details>
 
-## ⚙️ Week 1 – Coming Soon  
+<details>
+  <summary>
+     Week 1 – Coming Soon 
+  </summary>
+## Week 1 – Coming Soon  
 
 🔜 Planned tasks:  
 - Setup RISC-V toolchain  
@@ -123,21 +99,21 @@ make test
 - Capture waveforms & document simulation results  
 
 ---
+</details> 
 
-## 🙏 Acknowledgments  
+## Acknowledgments  
 I sincerely thank:  
-- **VSD (VLSI System Design)** team for this initiative  
+- Kunal gosh **VSD (VLSI System Design)** team for this initiative  
 - Mentors & community for guidance  
 - Open-source developers for tools like Yosys, Iverilog, GTKWave  
 
 ---
 
-## 📚 References  
+##  References  
 - [VSD Official GitHub](https://github.com/vlsisystemdesign)  
 - [RISC-V International](https://riscv.org)  
-- [Yosys Documentation](http://www.clifford.at/yosys/)  
 - [Linux Command Handbook](https://linuxcommand.org/)  
 
 ---
 
-✨ *This repository will be updated weekly with tasks, commands, outputs, and screenshots as I progress through the program.*  
+*This repository will be updated weekly with tasks, commands, outputs, and screenshots as I progress through the program.*  
