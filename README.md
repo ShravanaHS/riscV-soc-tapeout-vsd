@@ -22,7 +22,7 @@ The program is designed to provide hands-on exposure to:
 
 | Week | Focus Area | Status |
 |------|------------|--------|
-| **0** | Tool installation, environment setup, Teardrop verification | ✅ Completed |
+| **0** | Tool installation, environment setup | ✅ Completed |
 | **1** | RISC-V toolchain exploration, basic simulation | - |
 | **2** | RTL design & synthesis | - |
 | **3** | Physical design & layout | - |
