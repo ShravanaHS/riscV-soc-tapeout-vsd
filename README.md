@@ -36,6 +36,21 @@ The program is designed to provide hands-on exposure to:
 
 # Week 0 – Tool Installation & Verification 
 
+## Virtual Machine & Tool Installation Guide
+
+### System Requirements
+- **RAM:** 6 GB  
+- **Storage:** 50 GB HDD  
+- **OS:** Ubuntu 20.04 or higher  
+- **CPU:** 4 vCPU
+
+### Virtual Machine Setup
+- Download and install [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- Create a new VM with the above specs.
+- Install Ubuntu 20.04 LTS (or newer) inside VirtualBox.
+
+---
+
 ### 🔹 Step 1: Update & Install Essential Packages  
 ```bash
 sudo apt update
@@ -50,7 +65,26 @@ sudo apt install git make gcc g++ vim build-essential -y
 #### ✅ Yosys  
 ```bash
 sudo apt-get update
-sudo apt-get install yosys
+
+# Install required dependencies
+sudo apt-get install -y \
+  build-essential clang bison flex \
+  libreadline-dev gawk tcl-dev libffi-dev git \
+  graphviz xdot pkg-config python3 libboost-system-dev \
+  libboost-python-dev libboost-filesystem-dev zlib1g-dev
+
+# Clone the Yosys repository
+git clone https://github.com/YosysHQ/yosys.git
+
+# Enter the yosys directory
+cd yosys
+
+# Build Yosys
+make
+
+# Install Yosys system-wide
+sudo make install
+
 ```
 📸 *Yosys:*  
 ![Yosys Installation](screenshots/icarus.png)  
@@ -102,8 +136,8 @@ sudo apt install gtkwave
 </details> 
 
 ## Acknowledgments  
-I sincerely thank:  
-- Kunal gosh sir and **VSD (VLSI System Design)** team for this initiative  
+  I sincerely thank:  
+- [Kunal ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) sir and **[VSD (VLSI System Design)](https://vsdiat.vlsisystemdesign.com/)** team for this initiative  
 - Mentors & community for guidance  
 - Open-source developers for tools like Yosys, Iverilog, GTKWave  
 
