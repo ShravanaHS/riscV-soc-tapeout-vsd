@@ -22,8 +22,8 @@ The program is designed to provide hands-on exposure to:
 
 | Week | Focus Area | Status |
 |------|------------|--------|
-| **0** | [Tool installation, environment setup](#week-0--tool-installation--verification) | ✅ Completed |
-| **1** | RISC-V toolchain exploration, basic simulation | - |
+| **0** | [Tool installation, environment setup](#week-0--tool-installation--verification) |  Completed |
+| **1** | [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main) | Completed |
 | **2** | RTL design & synthesis | - |
 | **3** | Physical design & layout | - |
 
@@ -125,14 +125,8 @@ sudo apt install gtkwave
   <summary>
      Week 1 – Coming Soon 
   </summary>
-## Week 1 – Coming Soon  
-
-🔜 Planned tasks:  
-- Setup RISC-V toolchain  
-- Run sample RISC-V programs  
-- Capture waveforms & document simulation results  
-
----
+## Week 1 - Verilog RTL Design and Synthesis
+  [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main)
 </details> 
 
 ## Acknowledgments  
