@@ -23,7 +23,7 @@ The program is designed to provide hands-on exposure to:
 | Week | Focus Area | Status |
 |------|------------|--------|
 | **0** | [Tool installation, environment setup](#week-0--tool-installation--verification) |  Completed |
-| **1** | [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main) | Completed |
+| **1** | [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main) | ongoing |
 | **2** | RTL design & synthesis | - |
 | **3** | Physical design & layout | - |
 
