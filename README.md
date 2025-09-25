@@ -123,9 +123,9 @@ sudo apt install gtkwave
 
 <details>
   <summary>
-     Week 1 – Coming Soon 
+     Week 1 – Verilog RTL Design and Synthesis
   </summary>
-## Week 1 - Verilog RTL Design and Synthesis
+ 
   [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main)
 </details> 
 
