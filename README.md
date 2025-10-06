@@ -24,7 +24,7 @@ The program is designed to provide hands-on exposure to:
 |------|------------|--------|
 | **0** | [Tool installation, environment setup](#week-0--tool-installation--verification) |  Completed |
 | **1** | [Verilog RTL Design & Synthesis](https://github.com/ShravanaHS/week1-riscV-soc-tapeout-vsd/tree/main) | Completed |
-| **2** | [BabySoC Fundamentals & Functional Modelling](https://github.com/ShravanaHS/week2-riscV-soc-tapeout-vsd) | Ongoing |
+| **2** | [BabySoC Fundamentals & Functional Modelling](https://github.com/ShravanaHS/week2-riscV-soc-tapeout-vsd) | Completed |
 | **3** | Physical design & layout | - |
 
 
